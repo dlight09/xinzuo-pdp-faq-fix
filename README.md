@@ -1,12 +1,12 @@
 # xinzuo.com.au Shopify clone — TYICDI hiring task
 
-A sanitized clone of the [xinzuo.com.au](https://xinzuo.com.au) Shopify store, packaged so you can stand up a full visual mirror on your own free Shopify dev store in **about 4 minutes**.
+A sanitized clone of the [xinzuo.com.au](https://xinzuo.com.au) Shopify store, packaged so you can stand up a full visual mirror on your own free Shopify dev store in **under 5 minutes** of script time.
 
-You get the real Liquid theme + 40 sample products (covering all major collections) + 68 collections + 17 pages + 5 published articles, all imported via one command.
+You get the real Liquid theme + 49 sample products (the ones the theme actually references plus backfill) + 68 collections + 17 pages + 5 articles + 162 optimised media files (logo, hero, icons, testimonials, payment badges) — imported via one command.
 
 ---
 
-## Quick start — ~4 minutes from `git clone` to live dev store
+## Quick start — ~5 min of script time once your dev store + token are ready
 
 ### 1. Sign up for Shopify Partners (free, instant)
 
@@ -52,11 +52,14 @@ SHOPIFY_ACCESS_TOKEN=shpat_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 node scripts/setup.mjs --write
 ```
 
-Measured timing on a fresh dev store:
-- Upload 157 theme media files (logo, hero, icons, testimonials — already optimised to webp): **~3 min**
-- Seed data (40 products, 68 collections, 17 pages, 5 articles): **~80s**
-- Theme push (584 files): **~140s**
-- **Total: ~6–7 min**
+Measured timing on a fresh clean dev store (Win11, 1Gbps, no rate-limit retries):
+- `git clone`: **4s**
+- Upload 162 theme media files (logo, hero, icons, testimonials, payment badges — already optimised to webp@1200px): **~80s**
+- Seed data (49 products, 68 collections, 17 pages, 5 articles): **~65s**
+- Theme push (584 files): **~130s**
+- **Total from `git clone` to live dev store: ~4.6 min**
+
+(Allow extra time on the very first run for Shopify Partners signup, creating a dev store, and generating the API token — those steps are one-time and take another ~5 min for someone unfamiliar with the Partner dashboard.)
 
 ### 7. Visit your dev store
 
@@ -91,13 +94,13 @@ Submit your repo + Loom + NOTE on the [hiring portal](https://apply.toldyouicoul
 ## Setup script options
 
 ```bash
-# Default — slim seed (40 products, all media), takes ~6 min
+# Default — slim seed (49 theme-referenced products + all media), takes ~4.5 min
 node scripts/setup.mjs --write
 
-# Full catalog — 237 products + 77 articles, takes ~12 min
+# Full catalog — 237 products + 77 articles, takes ~10 min
 node scripts/setup.mjs --write --full
 
-# Wipe everything and re-seed clean
+# Wipe everything (products + collections + pages + files + non-main themes) and re-seed
 node scripts/setup.mjs --write --wipe
 
 # Dry-run preview (no changes, prints what would happen)
