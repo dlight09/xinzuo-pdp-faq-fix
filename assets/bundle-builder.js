@@ -90,6 +90,13 @@ class BundleBuilderComponent extends Component {
     this.#updateUI();
   }
 
+  handleCardKeyDown(event) {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+
+    event.preventDefault();
+    this.handleCardClick(event);
+  }
+
   async handleAddToCart() {
     if (this.#isAddingToCart) return;
     if (this.#selectedProductIds.size < this.#minItems) return;
