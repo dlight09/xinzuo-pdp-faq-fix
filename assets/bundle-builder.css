@@ -232,6 +232,12 @@ bundle-builder-component {
   transform: translateY(-2px);
 }
 
+.bundle-card:focus-visible {
+  border-color: var(--xinzuo-accent, #FFD380);
+  box-shadow: 0 0 0 3px rgba(255, 211, 128, 0.35);
+  outline: none;
+}
+
 
 /* Selected State */
 .bundle-card--selected {
