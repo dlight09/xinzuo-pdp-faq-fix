@@ -1234,8 +1234,8 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "What is 14Cr14MoVNb powder steel?",
-                "content": "<p>14Cr14MoVNb is a powder metallurgy steel with high chromium (14%), molybdenum, vanadium, and niobium content. The powder steel process creates an extremely fine, uniform grain structure that allows the blade to be hardened to 62-64 HRC while remaining tough enough for kitchen use. It holds an edge 2-3 times longer than conventional VG10 and is the same class of steel used in knives costing $400+.</p>",
+                "heading": "What is ZDP189 powder steel?",
+                "content": "<p>ZDP189 is a Japanese powder metallurgy steel made by Hitachi. With 3% carbon and 20% chromium, it creates an ultra-fine grain structure that holds a surgical edge longer than conventional Damascus steel.</p>",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -1245,7 +1245,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>14Cr14MoVNb is a powder metallurgy steel with high chromium (14%), molybdenum, vanadium, and niobium content. The powder steel process creates an extremely fine, uniform grain structure that allows the blade to be hardened to 62-64 HRC while remaining tough enough for kitchen use. It holds an edge 2-3 times longer than conventional VG10 and is the same class of steel used in knives costing $400+.</p>",
+                    "text": "<p>ZDP189 is a Japanese powder metallurgy steel made by Hitachi. With 3% carbon and 20% chromium, it creates an ultra-fine grain structure that holds a surgical edge longer than conventional Damascus steel.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1276,8 +1276,8 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "How hard is the Lan Series?",
-                "content": "<p>The Lan Series is hardened to 62-64 HRC through vacuum heat treatment. This is significantly harder than German steels (56-58 HRC) and harder than VG10 (60-61 HRC). The practical result is excellent edge retention. Most home cooks can go 6-12 months between sharpenings with regular honing. See our <a href=\"/blogs/news/powder-steel-knife-guide-14cr14movnb\">powder steel guide</a> for detailed performance data.</p>",
+                "heading": "How hard is the X05Z Zhen Series?",
+                "content": "<p>The X05Z Zhen Series operates at 65-67 HRC, making it the hardest steel in the Xinzuo range. That hardness gives it flagship edge retention, fewer sharpenings, and cleaner cuts over extended use.</p>",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -1287,7 +1287,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>The Lan Series is hardened to 62-64 HRC through vacuum heat treatment. This is significantly harder than German steels (56-58 HRC) and harder than VG10 (60-61 HRC). The practical result is excellent edge retention. Most home cooks can go 6-12 months between sharpenings with regular honing. See our <a href=\"/blogs/news/powder-steel-knife-guide-14cr14movnb\">powder steel guide</a> for detailed performance data.</p>",
+                    "text": "<p>The X05Z Zhen Series operates at 65-67 HRC, making it the hardest steel in the Xinzuo range. That hardness gives it flagship edge retention, fewer sharpenings, and cleaner cuts over extended use.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1318,8 +1318,8 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "Is the Lan Series harder to maintain than other series?",
-                "content": "<p>Harder steel does require a bit more care. Use a fine-grit whetstone (3000+ grit) rather than a coarse stone, and avoid ceramic honing rods which can chip the edge. A leather strop is ideal for daily maintenance. The trade-off is worth it: you'll spend far less total time sharpening because the edge lasts so much longer between sessions.</p>",
+                "heading": "Is the X05Z Zhen Series harder to maintain?",
+                "content": "<p>The X05Z holds its edge 3-4x longer than standard 60 HRC Damascus knives, but its harder ZDP189 steel requires a higher-grit whetstone when it does need sharpening.</p>",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -1329,7 +1329,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Harder steel does require a bit more care. Use a fine-grit whetstone (3000+ grit) rather than a coarse stone, and avoid ceramic honing rods which can chip the edge. A leather strop is ideal for daily maintenance. The trade-off is worth it: you'll spend far less total time sharpening because the edge lasts so much longer between sessions.</p>",
+                    "text": "<p>The X05Z holds its edge 3-4x longer than standard 60 HRC Damascus knives, but its harder ZDP189 steel requires a higher-grit whetstone when it does need sharpening.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1360,8 +1360,8 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "What handle does the Lan Series have?",
-                "content": "<p>The Lan Series features a hand-finished olive wood handle. Each piece of olive wood has unique grain patterns, making every knife one of a kind. Olive wood is naturally moisture-resistant and develops a rich patina with use. The ergonomic Western-style shape suits both pinch and handle grips.</p>",
+                "heading": "What handle does the X05Z Zhen Series have?",
+                "content": "<p>The X05Z handle pairs North American Desert Ironwood with White Buffalo Horn. Desert Ironwood is dense, naturally moisture-resistant, and uniquely figured, so each handle has its own grain pattern.</p>",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -1371,7 +1371,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>The Lan Series features a hand-finished olive wood handle. Each piece of olive wood has unique grain patterns, making every knife one of a kind. Olive wood is naturally moisture-resistant and develops a rich patina with use. The ergonomic Western-style shape suits both pinch and handle grips.</p>",
+                    "text": "<p>The X05Z handle pairs North American Desert Ironwood with White Buffalo Horn. Desert Ironwood is dense, naturally moisture-resistant, and uniquely figured, so each handle has its own grain pattern.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1402,8 +1402,8 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "Who is the Lan Series best for?",
-                "content": "<p>The Lan Series is built for cooks who prioritise edge performance above all else. If you find yourself sharpening too often, or if you want the closest thing to a professional-grade knife at a fraction of the price, the Lan Series delivers. It's also excellent for cooks who do a lot of precision work: the harder steel takes a keener edge for finer cuts.</p>",
+                "heading": "Who is the X05Z Zhen Series best for?",
+                "content": "<p>The X05Z Zhen Series is built for cooks who want Xinzuo's flagship edge performance. It is a precision instrument for people who value ZDP189 powder steel, Hitachi heat treatment, Desert Ironwood handles, and long-lasting sharpness.</p>",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -1413,7 +1413,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>The Lan Series is built for cooks who prioritise edge performance above all else. If you find yourself sharpening too often, or if you want the closest thing to a professional-grade knife at a fraction of the price, the Lan Series delivers. It's also excellent for cooks who do a lot of precision work: the harder steel takes a keener edge for finer cuts.</p>",
+                    "text": "<p>The X05Z Zhen Series is built for cooks who want Xinzuo's flagship edge performance. It is a precision instrument for people who value ZDP189 powder steel, Hitachi heat treatment, Desert Ironwood handles, and long-lasting sharpness.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
