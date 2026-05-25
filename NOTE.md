@@ -8,7 +8,7 @@ The FAQ section is visible on a conversion-focused product page, but it describe
 
 ## What I did
 
-I replaced the copied Lan FAQ entries with X05Z-specific questions and answers, using facts already present elsewhere in the same product template: ZDP189 powder steel, 65-67 HRC hardness, Desert Ironwood and White Buffalo Horn handle, and flagship edge retention.
+I replaced the copied Lan FAQ entries with X05Z-specific questions and answers, using facts already present elsewhere in the same product template: ZDP189 powder steel, 65-67 HRC hardness, Desert Ironwood and White Buffalo Horn handle, and flagship edge retention. I left the accordion structure and styling unchanged.
 
 ## What I'd do next
 
