@@ -1,15 +1,15 @@
 ## What I picked
 
-Bundle Builder product-card accessibility: keyboard users could tab to knife cards, but Enter/Space did not select them.
+PDP FAQ accuracy on `/products/zhen-xz05-series-8-inch-chef-knife`.
 
 ## Why it's the highest-impact thing here
 
-The Bundle Builder is a conversion path for multi-item orders and tiered discounts. If a shopper relies on keyboard navigation, the main interaction was exposed as a button but only worked with pointer input. That blocks selection, checkout progress, and fails WCAG keyboard operability expectations.
+The FAQ section is visible on a conversion-focused product page, but it described the Lan Series instead of the X05Z Zhen knife. That gave shoppers wrong product information about steel, hardness, handle material, and maintenance at the point where they are deciding whether a $399 knife is worth buying.
 
 ## What I did
 
-I kept the existing card UI and added the missing behavior only. Bundle cards now listen for `keydown`, treat Enter and Space like click activation, preserve `aria-pressed`, and show a visible `:focus-visible` ring so keyboard users can see which card will be selected.
+I replaced the copied Lan FAQ entries with X05Z-specific questions and answers, using facts already present elsewhere in the same product template: ZDP189 powder steel, 65-67 HRC hardness, Desert Ironwood and White Buffalo Horn handle, and flagship edge retention.
 
 ## What I'd do next
 
-I would test the pushed theme on a Shopify dev store with a screen reader, then consider making the cards real checkbox controls if the bundle rules become more complex.
+I would audit the other product templates for copied FAQ blocks and move repeated series facts into reusable metafields or section settings.
